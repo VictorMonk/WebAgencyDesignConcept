@@ -491,7 +491,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .service__card {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('assets/images/image2.png');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image2.png');
   background-size: cover;
   margin: .7rem 1rem;
   height: 400px;
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5 {
   flex-direction: column-reverse;
 }
 #service2 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('assets/images/image4.png');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image4.png');
   background-size: cover;
   margin: 1rem 1rem;
   height: 400px;
@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5 {
   flex-direction: column-reverse;
 }
 #service3 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('assets/images/image5.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image5.jpg');
   background-size: cover;
   margin: 1rem 1rem;
   height: 400px;
@@ -760,7 +760,7 @@ h1, h2, h3, h4, h5 {
 
 
 .portfolio__project {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('assets/images/image6.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image6.jpg');
   background-size: cover;
   margin: 1.5rem 1rem;
   height: 400px;
@@ -774,7 +774,7 @@ h1, h2, h3, h4, h5 {
   flex-direction: column-reverse;
 }
 #project2 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('assets/images/image7.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image7.jpg');
   background-size: cover;
   margin: 3rem 1rem;
   height: 400px;
@@ -788,7 +788,7 @@ h1, h2, h3, h4, h5 {
   flex-direction: column-reverse;
 }
 #project3 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('assets/images/image8.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image8.jpg');
   background-size: cover;
   margin: 3rem 1rem;
   height: 400px;
