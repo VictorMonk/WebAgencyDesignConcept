@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5 {
   text-shadow: 1px 1px #741b00;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 760px) {
   .navbar__container {
     display: flex;
     position: fixed;
@@ -439,12 +439,12 @@ h1, h2, h3, h4, h5 {
 
 @media screen and (max-width: 480px) {
   .main__content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 1rem;
   }
 
   .main__content h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .main__content p {
@@ -622,6 +622,30 @@ h1, h2, h3, h4, h5 {
   margin-left: 5%;
   margin: 3rem;
   box-shadow: 1px 1px black;
+}
+
+@media screen and (max-width: 480px) {
+  .grid__head {
+    margin-top: 23rem;
+  }
+  .grid__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid__fr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  hr {
+    opacity: 0;
+  }
+}
 }
 
 /* About Us */
