@@ -736,9 +736,9 @@ h1, h2, h3, h4, h5 {
 
 
 .portfolio__project {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/img2.png');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/img6.jpg');
   background-size: cover;
-  margin: 3rem 1rem;
+  margin: 1.5rem 1rem;
   height: 400px;
   width: 600px;
   border: solid 4px #741b00;
@@ -750,7 +750,7 @@ h1, h2, h3, h4, h5 {
   flex-direction: column-reverse;
 }
 #project2 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/img4.png');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/img7.jpg');
   background-size: cover;
   margin: 3rem 1rem;
   height: 400px;
@@ -764,7 +764,7 @@ h1, h2, h3, h4, h5 {
   flex-direction: column-reverse;
 }
 #project3 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/img5.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/img8.jpg');
   background-size: cover;
   margin: 3rem 1rem;
   height: 400px;
