@@ -491,7 +491,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .service__card {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image2.png');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/image2.png');
   background-size: cover;
   margin: .7rem 1rem;
   height: 400px;
@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5 {
   flex-direction: column-reverse;
 }
 #service2 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image4.png');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/image4.png');
   background-size: cover;
   margin: 1rem 1rem;
   height: 400px;
@@ -519,7 +519,7 @@ h1, h2, h3, h4, h5 {
   flex-direction: column-reverse;
 }
 #service3 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image5.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/image5.jpg');
   background-size: cover;
   margin: 1rem 1rem;
   height: 400px;
@@ -609,23 +609,9 @@ h1, h2, h3, h4, h5 {
   #hero hr {
   border: 1px 0
 }
+}]
 
-.heading {
-  text-align: center;
-  font-family: var(--font-main);
-  font-size: 2rem;
- text-shadow: 2px 2px black;
-  
-}
-.page__div {
-  border: 1px solid black;
-  border-radius: 10px;
-  width: 90%;
-  margin-left: 5%;
-  margin: 3rem;
-  box-shadow: 1px 1px black;
-}
-}
+
 
 @media screen and (max-width: 480px) {
   .grid__head {
@@ -650,7 +636,7 @@ h1, h2, h3, h4, h5 {
   }
 
   .service__card {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image2.png');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/image2.png');
     background-size: cover;
     margin: .7rem 1rem;
     height: 300px;
@@ -664,7 +650,7 @@ h1, h2, h3, h4, h5 {
     flex-direction: column-reverse;
   }
   #service2 {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image4.png');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/image4.png');
     background-size: cover;
     margin: 1rem 1rem;
     height: 300px;
@@ -678,7 +664,7 @@ h1, h2, h3, h4, h5 {
     flex-direction: column-reverse;
   }
   #service3 {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image5.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/image5.jpg');
     background-size: cover;
     margin: 1rem 1rem;
     height: 300px;
@@ -855,16 +841,30 @@ h1, h2, h3, h4, h5 {
   margin-left: 25vw;
 }
 
+.heading {
+  text-align: center;
+  font-family: var(--font-main);
+  font-size: 2rem;
+ text-shadow: 2px 2px black;
+  
+}
+
+.page__div {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 5%;
+  margin: 3rem;
+  box-shadow: 1px 1px black;
+}
+
 .portfolio__fr {
   display: flex;
   margin-left: 1rem
 }
 
-
-
-
 .portfolio__project {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image6.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/image6.jpg');
   background-size: cover;
   margin: 1.5rem 1rem;
   height: 400px;
@@ -878,7 +878,7 @@ h1, h2, h3, h4, h5 {
   flex-direction: column-reverse;
 }
 #project2 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image7.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/image7.jpg');
   background-size: cover;
   margin: 3rem 1rem;
   height: 400px;
@@ -892,7 +892,7 @@ h1, h2, h3, h4, h5 {
   flex-direction: column-reverse;
 }
 #project3 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image8.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/assets/images/image8.jpg');
   background-size: cover;
   margin: 3rem 1rem;
   height: 400px;
@@ -927,7 +927,6 @@ h1, h2, h3, h4, h5 {
   transition: all .25s ease-in-out;
 }
 
-
 .portfolio__fr h1 {
   padding-top: 190px;
   color: white;
@@ -950,7 +949,6 @@ h1, h2, h3, h4, h5 {
   text-shadow: 1px 1px black;
   background-image: radial-gradient(#b90230 0%, #741b00 100%);
 }
-
 
 .portfolio__project:hover button {
   background: radial-gradient(var(--blue) 0%, #07276d) 100%;
@@ -983,10 +981,7 @@ h1, h2, h3, h4, h5 {
   hr {
     opacity: 0;
   }
-
-
 }
-
 
  /* Social */ 
 
