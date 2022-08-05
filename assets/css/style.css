@@ -157,7 +157,7 @@ h1, h2, h3, h4, h5 {
   text-shadow: 1px 1px #741b00;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 760px) {
   .navbar__container {
     display: flex;
     position: fixed;
@@ -439,12 +439,12 @@ h1, h2, h3, h4, h5 {
 
 @media screen and (max-width: 480px) {
   .main__content h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 1rem;
   }
 
   .main__content h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .main__content p {
@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5 {
   }
 
   .main__img {
-    width: 370px;
+    width: 250px;
  
   }
 }
@@ -585,26 +585,28 @@ h1, h2, h3, h4, h5 {
 @media screen and (max-width: 780px) {
 
   .grid__head {
-    margin-top: 23rem;
+    display: flex;
+    justify-content: center;
   }
   .grid__container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    justify-self: center;
+    margin: 0 0;
+    padding-right: 3rem;
   }
 
   .grid__fr {
     display: flex;
-    margin-left: 1rem
+    margin: 0 0;
+    justify-content: center;
+
   }
 
   hr {
     opacity: 0;
   }
-}
 
-#hero hr {
+  #hero hr {
   border: 1px 0
 }
 
@@ -623,8 +625,8 @@ h1, h2, h3, h4, h5 {
   margin: 3rem;
   box-shadow: 1px 1px black;
 }
+}
 
-<<<<<<< HEAD
 @media screen and (max-width: 480px) {
   .grid__head {
     margin-top: 23rem;
@@ -646,13 +648,147 @@ h1, h2, h3, h4, h5 {
   hr {
     opacity: 0;
   }
+
+  .service__card {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image2.png');
+    background-size: cover;
+    margin: .7rem 1rem;
+    height: 300px;
+    width: 250px;
+    border: solid 4px #741b00;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    transition: all .2s ease-in-out;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #service2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image4.png');
+    background-size: cover;
+    margin: 1rem 1rem;
+    height: 300px;
+    width: 250px;
+    border: solid 4px #741b00;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    transition: all .2s ease-in-out;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #service3 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('./assets/images/image5.jpg');
+    background-size: cover;
+    margin: 1rem 1rem;
+    height: 300px;
+    width: 250px;
+    border: solid 4px #741b00;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    transition: all .2s ease-in-out;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column-reverse;
 }
 }
 
-=======
->>>>>>> parent of ceac866 (Typo fixes)
 /* About Us */
 
+#aboutUs {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 5rem;
+  min-width: 70vw;
+}
+
+.aboutUs__container {
+  display: flex;
+}
+
+.aboutUs__container h1 {
+  
+}
+
+.aboutUs__container p {
+
+}
+
+.aboutFlex__container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 5rem;
+} 
+
+.about_flexA {
+  flex: 1;
+}
+.about_flexA li {
+  list-style: circle;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.about_flexA p {
+  font-size: 1rem;
+}
+
+.about_flexA h3 {
+  text-shadow: 2px 2px black;
+  font-size: 1.5rem;
+  padding-top: 4rem;
+
+}
+
+.about_flexB {
+  flex: 2;
+  padding: 1rem 0rem;
+}
+
+.about_flexB h3 {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  text-shadow: 2px 2px black;
+}
+
+#about__img {
+  width: 49vw;
+  height: 70vh;
+  border: solid 5px #741b00;
+  border-radius: 10px;
+  box-shadow: 7px 7px black;
+  transition: all .2s ease-in-out;
+  box-sizing: content-box;
+}
+
+#about__img:hover {
+
+  transform: scale(1.1);
+  border: solid 6px var(--blue);
+  border-radius: 10px;
+  box-shadow: 12px 12px black;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 780px) {
+  .aboutFlex__container {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1rem;
+    padding: 0 0;
+   
+  }
+  #about__img {
+    max-width: 250px;
+    max-height: 250px;
+    border: solid 5px #741b00;
+    border-radius: 10px;
+    box-shadow: 7px 7px black;
+    transition: all .2s ease-in-out;
+    box-sizing: content-box;
+}
 #aboutUs {
   display: flex;
   width: 100%;
@@ -676,7 +812,11 @@ h1, h2, h3, h4, h5 {
 
 .aboutFlex__container {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
+  margin-left: 2rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 250px;
 } 
 
 .about_flexA {
@@ -692,53 +832,14 @@ h1, h2, h3, h4, h5 {
 
 .about_flexB {
   flex: 2;
-  padding: 1rem 0rem;
+  padding: 0rem 0rem;
 }
 
 .about_flexB h3 {
   padding-bottom: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-shadow: 2px 2px black;
 }
-
-#about__img {
-  max-width: 600px;
-  max-height: 600px;
-  border: solid 5px #741b00;
-  border-radius: 10px;
-  box-shadow: 7px 7px black;
-  transition: all .2s ease-in-out;
-  box-sizing: content-box;
-}
-
-#about__img:hover {
-
-  transform: scale(1.1);
-  border: solid 6px var(--blue);
-  border-radius: 10px;
-  box-shadow: 12px 12px black;
-  transition: all .2s ease-in-out;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 780px) {
-  .aboutFlex__container {
-    display: flex;
-    flex-direction: column-reverse;
-   
-  }
-  #about__img {
-    max-width: 370px;
-    max-height: 370px;
-    border: solid 5px #741b00;
-    border-radius: 10px;
-    box-shadow: 7px 7px black;
-    transition: all .2s ease-in-out;
-    box-sizing: content-box;
-}
-.about_flexA {
-  margin-left: 1rem;
-} 
 }
 
 
@@ -865,20 +966,27 @@ h1, h2, h3, h4, h5 {
   }
   .portfolio__container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     justify-self: center;
+    max-width: 250px;
+  }
+  .portfolio__container h1 {
+    font-size: 1.5rem;
+    margin: 5px 5px;
   }
 
   .portfolio__fr {
     display: flex;
-    margin-left: 1rem
   }
 
   hr {
     opacity: 0;
   }
+
+
 }
+
 
  /* Social */ 
 
@@ -889,7 +997,7 @@ h1, h2, h3, h4, h5 {
   color: #b90230
  
  }
- li {
+ footer li {
   display: inline-block;
   padding: 0 1rem;
   padding-bottom: 1rem;
