@@ -1,3 +1,4 @@
+/*
 const menu = document.querySelector('#mobile-menu')
 const menuLinks = document.querySelector('.navbar__menu')
 
@@ -6,6 +7,7 @@ menu.addEventListener('click', function(){
   menuLinks.classList.toggle('active');
   
 });
+*/
 
 window.addEventListener('scroll', reveal);
 
@@ -22,7 +24,7 @@ function reveal(){
       reveals[i].classList.add('active');
     }
     else{
-      reveals[i].classList.remove('active');
+      reveals[i].classList.remove('activeElement');
     }
   }
 }
